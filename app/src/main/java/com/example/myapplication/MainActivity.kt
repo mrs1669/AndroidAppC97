@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
         val fab: FloatingActionButton = findViewById(R.id.fab)
         fab.setOnClickListener { view ->
-            Snackbar.make(view, "ぼたんにアクションをついかしてね", Snackbar.LENGTH_LONG)
+            Snackbar.make(view, "ボタンにアクションを追加してね", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
